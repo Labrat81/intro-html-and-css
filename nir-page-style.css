@@ -1,0 +1,89 @@
+main {
+  margin: 100;
+  padding: 10;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+}
+
+#link-title {
+  color: black;
+  text-align: center;
+}
+
+nav {
+  background-color: rgb(47, 140, 171);
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+#socials-link {
+  color: white;
+}
+
+#spotify-link {
+  text-align: center;
+}
+#youtube-link {
+  text-align: center;
+}
+
+#spotify-click {
+  color: blue;
+}
+#spotify-click:hover {
+  color: orangered;
+}
+
+#youtube-click {
+  color: blue;
+}
+#youtube-click:hover {
+  color: orangered;
+}
+
+#artists-heading {
+  font-size: 300%;
+  color: orangered;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 15px;
+}
+
+#bandpics {
+  width: 10%;
+  border-radius: 50%;
+  border: 10px solid rgb(47, 140, 171);
+}
+
+#band-bio-heading {
+  text-align: center;
+}
+#bio {
+  text-align: left;
+}
+
+#email {
+  color: blue;
+  text-decoration: none;
+}
+#email:hover {
+  color: orangered;
+}
+
+li {
+  color: orangered;
+}
